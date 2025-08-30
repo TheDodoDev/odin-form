@@ -51,22 +51,22 @@
             <div class="content__container__form__row">
               <div class="content__container__form__row__element">
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="example@123.com">
+                <input type="email" id="email" placeholder="example@123.com">
               </div>
               <div class="content__container__form__row__element">
                 <label for="phone_number">Phone Number</label>
-                <input type="text" id="phone_number" placeholder="1234567890">
+                <input type="number" id="phone_number" placeholder="1234567890" pattern="\d{9}?">
               </div>
             </div>
 
             <div class="content__container__form__row">
               <div class="content__container__form__row__element">
                 <label for="password">Password</label>
-                <input type="text" id="password" placeholder="">
+                <input type="password" id="password" placeholder="" minlength="8" maxlength="20">
               </div>
               <div class="content__container__form__row__element">
                 <label for="password_confirmation">Confirm Password</label>
-                <input type="text" id="password_confirmation" placeholder="">
+                <input type="password" id="password_confirmation" placeholder="">
               </div>
             </div>
 
