@@ -9,6 +9,7 @@
   </head>
   <body>
     <div id="app">
+      
       <div class="sidebar">
         <div class="sidebar__logo">
           <img class="sidebar__logo__image" src="img/odin-lined.png" alt="odin-line.png">
@@ -24,6 +25,7 @@
           </a>
         </p>
       </div>
+
       <div class="content">
         <div class="content__container">
           <p>
@@ -31,9 +33,50 @@
           </p>
           <p>SIGN UP NOW!</p>
         </div>
-        <div class="content__container content__container--lighter content__container--shorter"></div>
+        <div class="content__container content__container--lighter content__container--shorter content__container--shadow">
+          <p class="heading">Sign Up</p>
+          <form class="content__container__form">
+
+            <div class="content__container__form__row">
+              <div class="content__container__form__row__element">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" placeholder="John">
+              </div>
+              <div class="content__container__form__row__element">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" placeholder="Doe">
+              </div>
+            </div>
+
+            <div class="content__container__form__row">
+              <div class="content__container__form__row__element">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="example@123.com">
+              </div>
+              <div class="content__container__form__row__element">
+                <label for="phone_number">Phone Number</label>
+                <input type="text" id="phone_number" placeholder="1234567890">
+              </div>
+            </div>
+
+            <div class="content__container__form__row">
+              <div class="content__container__form__row__element">
+                <label for="password">Password</label>
+                <input type="text" id="password" placeholder="">
+              </div>
+              <div class="content__container__form__row__element">
+                <label for="password_confirmation">Confirm Password</label>
+                <input type="text" id="password_confirmation" placeholder="">
+              </div>
+            </div>
+
+          </form>
+
+
+        </div>
         <div class="content__container"></div>
       </div>
-    </div>
+
+    </div>  
   </body>
 </html>
